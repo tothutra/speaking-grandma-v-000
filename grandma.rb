@@ -15,7 +15,11 @@
 def speak_to_grandma(isay)
   if isay != isay.upcase
     return 'HUH?! SPEAK UP, SONNY!'
-  elsif isay = "I LOVE YOU GRANDMA!"
+  elsif isay == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
+  elsif isay == 'WHAT DID YOU EAT TODAY?'
+    return "NO, NOT SINCE 1938!"
+  elsif isay == 'WHAT?'
+    return "NO, NOT SINCE 1938!"
   end
 end
